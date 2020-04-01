@@ -1,0 +1,10 @@
+$(function(){
+    $('.blog-card').hover(
+        function(){
+            $('.title').addClass('hover');
+        },
+        function(){
+            $('.title').removeClass('hover');
+        }
+    );
+});
